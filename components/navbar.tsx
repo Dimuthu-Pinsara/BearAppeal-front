@@ -32,7 +32,7 @@ export function Navbar() {
         <div>
           <p className="text-[#878787] text-xs leading-6">
             Free shipping for orders over{" "}
-            <span className="font-semibold">Rs 7500</span> | 1-3 day delivery
+            Rs 7500 | 1-3 day delivery
             within Colombo | 1-5 day delivery out of Colombo
           </p>
         </div>
@@ -40,7 +40,7 @@ export function Navbar() {
       </div>
 
       <div className="w-full bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 py-4">
+        <div className="w-full mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
 
             <div className="flex items-center gap-4">
@@ -58,7 +58,7 @@ export function Navbar() {
 
             <div className="flex-1 flex justify-center">
               <div className="flex flex-col items-center">
-                <div className="w-12 h-12 mb-1 flex items-center justify-center">
+                <div className="mb-1 flex items-center justify-center">
                   <Image
                         src="/images/logo.png"
                         alt="Picture of the author"
